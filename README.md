@@ -6,10 +6,10 @@
 
 # 目录
 
-- [初步了解](#初步了解)
-  - [chrome插件是什么](#chrome插件是什么)
-  - [chrome插件开发模式](#chrome插件开发模式)
-  - [运行第一个chrome开发插件](#运行第一个chrome开发插件)
+- [初步了解](/docs/初步了解/README.md)
+  - [chrome插件是什么](/docs/初步了解/README.md#chrome插件是什么)
+  - [chrome插件开发模式](/docs/初步了解/README.md#chrome插件是什么chrome插件开发模式)
+  - [运行第一个chrome开发插件](/docs/初步了解/README.md#chrome插件是什么运行第一个chrome开发插件)
 
 - [案例分析](#案例分析)
   - [chrome插件配置定义](#chrome插件配置定义)
