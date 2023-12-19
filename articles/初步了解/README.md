@@ -29,7 +29,7 @@
 你下载下来这个ctx安装包，然后把后缀改成zip，那么你就能解压看到目录了。~~是不是非常神奇？~~
 
 
-![image.png](/images/1.png)
+![image.png](./images/1.png)
 
 # chrome插件开发模式
 
@@ -38,15 +38,18 @@
 
 页面右上角有个开关，开启开发者模式，开启它。
 
-![image.png](/images/2.png)
+![image.png](./images/2.png)
 
 # 运行第一个chrome开发插件 
 
 开启开发者模式后，会出现一个按钮，名称为 `加载已解压的扩展程序`。
 选择这个按钮，然后选择下载扩展之后解压的那个目录。
 
-![image.png](/images/3.png)
+![image.png](./images/3.png)
 
 到此步，恭喜你，以开发者模式安装了第一个扩展程序。
 
 点击这个扩展，你就能看到弹出的“你好”这两个字。
+
+
+[hello]:https://github.com/lovefc/xxx.zip
