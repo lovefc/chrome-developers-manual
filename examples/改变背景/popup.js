@@ -1,4 +1,3 @@
-// 改变图标
 function change_icon(color){
 	// 生成一个16*16的随机颜色图片
 	const canvas = new OffscreenCanvas(16, 16);
@@ -32,6 +31,9 @@ function genericOnClick(info) {
 	if(info.menuItemId =='child2'){
 		 change_icon('#000');
 	}
+	if(info.pageUrl == 'https://www.baidu.com/'){
+		
+	}
 }
 
 /** 点击菜单监听 **/
@@ -48,14 +50,14 @@ chrome.runtime.onInstalled.addListener(function () {
 	
 	// 子菜单-1
     chrome.contextMenus.create({
-       title: '点击图标变蓝',
+       title: '自定义菜单',
        parentId: parent,
        id: 'child1'
     });	
 	
 	// 子菜单-2
     chrome.contextMenus.create({
-       title: '点击图标变黑',
+       title: '自定义菜单2',
        parentId: parent,
        id: 'child2'
     });		

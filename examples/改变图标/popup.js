@@ -12,19 +12,20 @@ function randomColor() {
   return color;
 }
 
-function change_icon(){
-	// 生成一个16*16的随机颜色图片
-	const canvas = new OffscreenCanvas(16, 16);
-	const context = canvas.getContext('2d');
-	context.clearRect(0, 0, 16, 16);
-	context.fillStyle = randomColor();  // 随机颜色
-	context.fillRect(0, 0, 16, 16);
-	const imageData = context.getImageData(0, 0, 16, 16);
-	// 改变图标
-    chrome.action.setIcon({imageData: imageData}, () => { console.log('改变成功'); });
+// 改变图标
+function change_icon() {
+  // 生成一个16*16的随机颜色图片
+  const canvas = new OffscreenCanvas(16, 16);
+  const context = canvas.getContext('2d');
+  context.clearRect(0, 0, 16, 16);
+  context.fillStyle = randomColor();  // 随机颜色
+  context.fillRect(0, 0, 16, 16);
+  const imageData = context.getImageData(0, 0, 16, 16);
+  // 改变图标
+  chrome.action.setIcon({ imageData: imageData }, () => { console.log('改变成功'); });
 }
 
-document.getElementById("icon").onclick = function() {
+document.getElementById("icon").onclick = function () {
   change_icon();
   alert('改变成功');
 };

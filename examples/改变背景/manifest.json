@@ -1,0 +1,28 @@
+{
+  // 配置文件版本,以后只支持3了
+  "manifest_version": 3,
+  // 扩展名称
+  "name": "改变网站背景",
+  // 扩展介绍
+  "description": "一个可以改变网站背景的扩展",
+  // 扩展版本
+  "version": "1.0",  
+  // 特定页面注入的js,matches表示匹配的网址，只有网址匹配，才会注入该js
+  "content_scripts": [
+    {
+      "matches": ["https://www.baidu.com/*","https://www.google.com/*"],
+      "js": ["content.js"]
+    }
+  ],  
+  // 图标
+  "icons": {
+    // 扩展程序页面和上下文菜单上的网站图标。
+    "16": "images/default.png",
+    // 	Windows 计算机通常需要此大小。
+    "32": "images/default.png",
+    //	显示在“扩展程序”页面上。
+    "48": "images/default.png",
+    // 安装时会显示在 Chrome 应用商店中。
+    "128": "images/default.png"
+  }  
+}
