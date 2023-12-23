@@ -10,6 +10,7 @@
   - [chrome插件是什么](/docs/初步了解/README.md#chrome插件是什么)
   - [chrome插件开发模式](/docs/初步了解/README.md#chrome插件开发模式)
   - [运行第一个chrome开发插件](/docs/初步了解/README.md#运行第一个chrome开发插件)
+  - [打包第一个chrome开发插件](/docs/初步了解/README.md#打包第一个chrome开发插件)  
 
 - [案例分析](#案例分析)
   - [chrome插件配置定义](#chrome插件配置定义)
