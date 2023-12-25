@@ -51,6 +51,11 @@ chrome开发者模式也自带了打包功能，就是把扩展给打包成`xxx.
 
 打包的时候，有一个选填的密匙，这个其实用来验证扩展程序身份。
 
-如果您不填，也会在打包会生成一个`xxx.pem`文件，下次打包，您可以使用这个文件。
+如果您不填，也会在打包会生成一个`xxx.pem`文件，下次打包，您可以再次使用这个文件打包。
 
-至于怎么做，现在您不需要了解，我会在后面向您说明。
+
+在 Linux 或 Mac上还可以使用命令行打包,使用 --pack-extension 参数指定扩展程序所在文件夹的位置，
+
+使用 --pack-extension-key 指定扩展程序私有密钥文件的位置。
+
+`chrome.exe --pack-extension=G:\hello --pack-extension-key=G:\hello.pem`
