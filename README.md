@@ -13,6 +13,8 @@
   - [打包第一个chrome开发插件](/docs/初步了解/README.md#打包第一个chrome开发插件)  
 
 - [案例分析](#案例分析)
-  - [chrome插件配置定义](#chrome插件配置定义)
-  - [chrome插件的目录规范](#chrome插件的目录规范)
-  - [chrome插件行为介绍](#chrome插件行为介绍)
+  - [chrome插件配置定义](/docs/案例分析/chrome插件配置定义)
+  - [chrome插件的目录规范](/docs/案例分析/chrome插件的目录规范)
+  - [chrome插件行为介绍](/docs/案例分析/chrome插件行为介绍)
+  
+ 
