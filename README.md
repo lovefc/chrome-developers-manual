@@ -22,4 +22,4 @@
   - [权限](/docs/核心概念/权限.md)
   - [内容脚本(content Script)](/docs/核心概念/内容脚本.md)
   - [后台脚本(Service Worker)](/docs/核心概念/后台脚本.md)
-   
+  - [消息传递](/docs/核心概念/消息传递.md)  
