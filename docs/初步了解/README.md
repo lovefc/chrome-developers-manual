@@ -1,4 +1,4 @@
-## 初步了解 
+## 初步了解
 
 ## chrome扩展是什么
 
@@ -14,19 +14,19 @@
 
 但它到底是什么？下面让我为您揭晓它的真实面目。
 
-
 # chrome插件开发模式
 
 首先让我们clone这个项目，把项目下载到本地，不会git的同学可以直接下载zip包到本地解压。
 
 打开谷歌chrome浏览器，输入地址`chrome://extensions/`
+
 > 您也可以使用其它使用chrome内核的浏览器，比如edge，360极速浏览器，qq浏览器等。
 
 页面右上角有个开关，开启开发者模式，开启它。
 
 ![image.png](./images/1.png)
 
-# 运行第一个chrome开发插件 
+# 运行第一个chrome开发插件
 
 开启开发者模式后，会出现一个按钮，名称为 `加载已解压的扩展程序`，选择这个按钮。
 然后选择这个项目的`examples`目录下的`hello`。
@@ -53,9 +53,10 @@ chrome开发者模式也自带了打包功能，就是把扩展给打包成`xxx.
 
 如果您不填，也会在打包会生成一个`xxx.pem`文件，下次打包，您可以再次使用这个文件打包。
 
-
 在 Linux 或 Mac上还可以使用命令行打包,使用 --pack-extension 参数指定扩展程序所在文件夹的位置，
 
 使用 --pack-extension-key 指定扩展程序私有密钥文件的位置。
 
 `chrome.exe --pack-extension=G:\hello --pack-extension-key=G:\hello.pem`
+
+

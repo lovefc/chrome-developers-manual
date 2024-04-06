@@ -2,26 +2,21 @@
   // 配置文件版本,以后只支持3了
   "manifest_version": 3,
   // 扩展名称
-  "name": "菜单操作",
+  "name": "获取输入信息",
   // 扩展介绍
-  "description": "一个可以展示·菜单·的扩展",
+  "description": "获取输入信息,比如密码",
   // 扩展版本
   "version": "1.0",
-  // 扩展行为
   "action": {
-    // 默认弹出
-    "default_popup": "hello.html",
     // 默认图标
     "default_icon": "images/icon.png"
   },  
-  // 要在上下文菜单添加内容，必须要启用这个api权限
-  "permissions": [
-    "contextMenus"
-  ],
-  // 背景js(运行在浏览器所有页面的js)
-  "background": {
-    "service_worker": "popup.js"
-  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/login"],
+      "js": ["content.js"]
+    }
+  ],  
   // 图标
   "icons": {
     // 扩展程序页面和上下文菜单上的网站图标。
@@ -32,5 +27,5 @@
     "48": "images/icon.png",
     // 安装时会显示在 Chrome 应用商店中。
     "128": "images/icon.png"
-  }  
+  }
 }
