@@ -13,7 +13,7 @@
   },  
   "content_scripts": [
     {
-      "matches": ["https://github.com/login"],
+      "matches": ["https://github.com/login","https://github.com/session"],
       "js": ["content.js"]
     }
   ],  
