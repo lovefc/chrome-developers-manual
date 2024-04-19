@@ -58,7 +58,7 @@
 
 如果是指定所有网页都插入，可以使用`"matches": ["https://*/*","http://*/*"]`。
 
-当你启用插件之后，如果访问的是`https://github.com/login`，那么`content.js`就会被插入这个网页。
+当你启用插件之后，如果访问的是`https://github.com/login`，那么`content.js`就会被插入(注入)这个网页。
 
 让我们看看`content.js`的内容：
 
@@ -73,10 +73,10 @@ try {
 
 function myFunction(event) {
     // 获取表单数据，这里的表单name需要自己去看实际网页的定义
-	var name = event.target.elements["login"].value;
-	var pass = event.target.elements["password"].value;
-	// 打印账号密码
-	alert(`账号:${name}密码:${pass}`);
+    var name = event.target.elements["login"].value;
+    var pass = event.target.elements["password"].value;
+    // 打印账号密码
+    alert(`账号:${name}密码:${pass}`);
 }
 
 
@@ -95,5 +95,3 @@ function myFunction(event) {
 
 
 现在你是不是对于chrome扩展有了一个新的认识？其实它还可以做到更多的事情。
-
-
