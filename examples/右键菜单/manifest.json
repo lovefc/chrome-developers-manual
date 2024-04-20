@@ -9,8 +9,6 @@
   "version": "1.0",
   // 扩展行为
   "action": {
-    // 默认弹出
-    "default_popup": "hello.html",
     // 默认图标
     "default_icon": "images/icon.png"
   },  
@@ -18,6 +16,16 @@
   "permissions": [
     "contextMenus"
   ],
+  "host_permissions": [
+    "https://www.baidu.com/*",
+	"https://www.google.com/*"
+  ],  
+  "content_scripts": [
+    {
+      "matches": ["https://www.baidu.com/*","https://www.google.com/*"],
+      "js": ["content.js"]
+    }
+  ],  
   // 背景js(运行在浏览器所有页面的js)
   "background": {
     "service_worker": "popup.js"
