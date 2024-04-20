@@ -33,4 +33,7 @@
   - [后台脚本(Service Worker)](/docs/核心概念/后台脚本.md)
   - [消息传递](/docs/核心概念/消息传递.md)  
 
+- [属性说明](/docs/属性说明/README.md)
+  - [权限属性](/docs/属性说明/权限属性.md)
+
 
