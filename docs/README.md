@@ -9,9 +9,8 @@
 
 - [案例分析](/案例分析/README.md)
   
-  - [chrome插件清单定义](/案例分析/#chrome插件清单定义)
-  - [chrome插件的目录规范](/案例分析/#chrome插件的目录规范)
-  - [chrome插件行为介绍](/案例分析/#chrome插件行为介绍)
+  - [chrome插件清单定义](/案例分析/README.md#chrome插件清单定义)
+  - [chrome插件的目录规范](/案例分析/README.md#chrome插件的目录规范)
 
 - [核心概念](/核心概念/README.md)
   
