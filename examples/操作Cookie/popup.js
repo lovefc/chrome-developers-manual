@@ -31,7 +31,7 @@ async function set(cookie) {
   }
 }
 
-// 设置cookie
+// 获取cookie
 async function get(name, url) {
   try {
     const cookies = await chrome.cookies.get({ name: name, url: url });
