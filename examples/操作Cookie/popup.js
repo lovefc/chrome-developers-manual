@@ -80,7 +80,7 @@ async function set(cookie) {
   }
 }
 
-// 获取cookie
+// 获取全部cookie
 async function getall(url) {
   try {
     const cookies = await chrome.cookies.getAll({ url: url });
@@ -88,7 +88,7 @@ async function getall(url) {
       console.log('No cookies found');
       return;
     }
-    console.log(cookies);
+    return cookies;
   } catch (error) {
     console.log(`Error: ${error.message}`);
   }
@@ -141,7 +141,7 @@ button2.addEventListener('click', async function (event) {
     await set(cookie_array[key]);
   }
   alert('cookie设置成功');
-  //window.open(domain, '_blank');
+  window.open(domain, '_blank');
 });
 
 // 删除
