@@ -1,39 +1,35 @@
 {
    // 配置文件版本,以后只支持3了
-  "manifest_version": 3,
-  // 扩展名称
-  "name": "我的主题",
-  // 扩展介绍
-  "description": "一个自己定义的主题",
-  // 扩展版本  
-  "version": "1.2",
-  // 主题设置
-  "theme": {
-    "images" : {
-      "theme_frame" : "themes/2.jpg",
-      "theme_frame_overlay" : "themes/4.jpg",
-      "theme_toolbar" : "themes/3.png",
-      "theme_ntp_background" : "themes/6.jpg",
-      "theme_ntp_attribution" : "themes/5.png"
-    },
-    "properties": {
-        "ntp_background_alignment": "center",
-        "ntp_background_repeat": "no-repeat",
-        "ntp_logo_alternate": 0
-    },
-    "colors" : {
-      "frame" : [71, 105, 91],
-      "toolbar" : [207, 221, 192],
-      "ntp_text" : [20, 40, 0],
-      "ntp_link" : [36, 70, 0],
-      "ntp_section" : [207, 221, 192],
-      "button_background" : [255, 255, 255]
-    },
-    "tints" : {
-      "buttons" : [0.33, 0.5, 0.47]
-    },
-    "properties" : {
-      "ntp_background_alignment" : "bottom"
-    }
-  }
+   "manifest_version": 3,
+   // 扩展名称
+   "name": "我的主题",
+   // 扩展介绍
+   "description": "一个自己定义的主题",
+   // 扩展版本  
+   "version": "1.0",
+   // 主题设置
+   "theme": {
+      "colors": {
+         "bookmark_text": [255,255,255],
+         "frame": [22,36,41],
+         "ntp_background": [18,36,42],
+         "tab_background_text": [255,255,255],
+         "tab_text": [255,255,255],
+         "toolbar": [45,71,84]
+      },
+      "images": {
+         "theme_ntp_background": "themes/theme_tab_background.jpg"
+      },
+      "properties": {
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "repeat-x",
+         "ntp_logo_alternate": 1
+      },
+      "tints": {
+         "buttons": [1,1,1],
+         "frame_inactive": [-1,-1,-1],
+         "frame_incognito": [1,1,1],
+         "frame_incognito_inactive": [-1,-1,-1]
+      }
+   }
 }
