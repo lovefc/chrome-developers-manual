@@ -6,6 +6,8 @@ try {
    console.log(error);
 }
 
+console.log('获取输入插件已加载');
+
 function myFunction(event) {
     // 获取表单数据，这里的表单name需要自己去看实际网页的定义
 	var name = event.target.elements["login"].value;
