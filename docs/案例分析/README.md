@@ -78,10 +78,8 @@
 - default_popup(弹出展示)页的调试
 - background(背景页)的调试
 - content_scripts(内容页)的调试
-  
- 
-调试工具其实就是chrome自带的工具终端（f12），让我们可以看到css，html，js，请求，资源等等一切的输出。
 
+调试工具其实就是chrome自带的工具终端（f12），让我们可以看到css，html，js，请求，资源等等一切的输出。
 
 # popup弹出页的调试
 
@@ -95,7 +93,17 @@
 
 # content注入页调试
 
+content.js是注入到页面的js，<mark>可直接在注入的网址页面打开f12调试工具</mark>，查看和调试。
+在content.js写代码`console.log(获取输入插件已加载)`，能直接在调试工具看到打印。
 
+![image.png](./images/6.png)
 
 # background后台页调试
 
+后台文件的运行调试，可直接在扩展页面点击<mark>检查视图</mark>查看
+
+扩展页面地址：`chrome://extensions/`
+
+![image.png](./images/7.png)
+
+![image.png](./images/8.png)
