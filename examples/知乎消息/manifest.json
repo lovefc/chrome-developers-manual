@@ -1,0 +1,36 @@
+{
+  // 配置文件版本,以后只支持3了
+  "manifest_version": 3,
+  // 扩展名称
+  "name": "知乎信息",
+  // 扩展介绍
+  "description": "一个可以获取知乎信息的扩展",
+  // 扩展版本
+  "version": "1.0",
+  // 扩展行为
+  "action": {
+    // 默认图标
+    "default_icon": "images/icon.png"
+  },  
+  // 背景js(运行在浏览器所有页面的js)
+  "background": {
+    "service_worker": "background.js"
+  },
+  // 背景js申明请求跨源权限
+  "host_permissions": [
+    "https://www.zhihu.com/*"
+  ],  
+  // 图标
+  "icons": {
+    // 扩展程序页面和上下文菜单上的网站图标。
+    "16": "images/icon.png",
+    // 	Windows 计算机通常需要此大小。
+    "32": "images/icon.png",
+    //	显示在“扩展程序”页面上。
+    "48": "images/icon.png",
+    // 安装时会显示在 Chrome 应用商店中。
+    "128": "images/icon.png"
+  },
+  // 主页地址
+  "homepage_url": "https://www.zhihu.com"
+}
