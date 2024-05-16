@@ -12,8 +12,8 @@
   - [chrome插件清单定义](案例分析/README.md#chrome插件清单定义)
   - [chrome插件的目录规范](案例分析/README.md#chrome插件的目录规范)
   - [popup弹出页的调试](案例分析/README.md#popup弹出页的调试)
-  - [content注入页调试](案例分析/README.md#content注入页调试)   
-  - [background后台页调试](案例分析/README.md#background后台页调试) 
+  - [content注入脚本调试](案例分析/README.md#content注入脚本调试)   
+  - [background后台脚本调试](案例分析/README.md#background后台脚本调试) 
 
 - [核心概念](核心概念/README.md)
   

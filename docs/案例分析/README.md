@@ -91,14 +91,14 @@
 
 如图所示，你就能对弹出页进行调试，看是否出错，调试样式，查看请求等等一系列操作。
 
-# content注入页调试
+# content注入脚本调试
 
 content.js是注入到页面的js，<mark>可直接在注入的网址页面打开f12调试工具</mark>，查看和调试。
 在content.js写代码`console.log(获取输入插件已加载)`，能直接在调试工具看到打印。
 
 ![image.png](./images/6.png)
 
-# background后台页调试
+# background后台脚本调试
 
 后台文件的运行调试，可直接在扩展页面点击<mark>检查视图</mark>查看
 
