@@ -1,5 +1,3 @@
-# 案例分析
-
 # chrome插件清单定义
 
 下面我们来分析一下这个扩展，打开刚才的扩展目录`hello`
@@ -81,13 +79,11 @@
 - background(背景页)的调试
 - content_scripts(内容页)的调试
   
-  
-
+ 
 调试工具其实就是chrome自带的工具终端（f12），让我们可以看到css，html，js，请求，资源等等一切的输出。
 
 
-
-## default_popup弹出展示页的调试
+# popup弹出页的调试
 
 ![image.png](./images/4.png)
 
@@ -97,4 +93,9 @@
 
 如图所示，你就能对弹出页进行调试，看是否出错，调试样式，查看请求等等一系列操作。
 
+# content注入页调试
+
+
+
+# background后台页调试
 
