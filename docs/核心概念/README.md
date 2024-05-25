@@ -56,7 +56,7 @@
 
 `matches` 是一个数组，它定义了这个js该插到那个url网页里面，这里我写了github的登录网址。
 
-如果是指定所有网页都插入，可以使用`"matches": ["https://*/*","http://*/*"]`。
+如果是指定所有网页都插入，可以使用`"matches": ["https://*/*","http://*/*"]`或者`"matches": ["<all_urls>"]`
 
 当你启用插件之后，如果访问的是`https://github.com/login`，那么`content.js`就会被插入(注入)这个网页。
 
