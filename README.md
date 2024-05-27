@@ -10,30 +10,32 @@
 
 如有不足之处，欢迎指出讨论学习。
 
-# 目录
+你可以直接打开docs目录在线观看，或者安装VitePress，生成文档来阅读
 
-- [初步了解](/docs/初步了解/README.md)
-  
-  - [chrome插件是什么](/docs/初步了解/README.md#chrome插件是什么)
-  - [chrome插件开发模式](/docs/初步了解/README.md#chrome插件开发模式)
-  - [运行第一个chrome开发插件](/docs/初步了解/README.md#运行第一个chrome开发插件)
-  - [打包第一个chrome开发插件](/docs/初步了解/README.md#打包第一个chrome开发插件)  
+# 安装npm包
 
-- [案例分析](/docs/案例分析/README.md)
-  
-  - [chrome插件清单定义](/docs/案例分析/#chrome插件清单定义)
-  - [chrome插件的目录规范](/docs/案例分析/#chrome插件的目录规范)
-  - [chrome插件行为介绍](/docs/案例分析/#chrome插件行为介绍)
+`npm install`
 
-- [核心概念](/docs/核心概念/README.md)
-  
-  - [API](/docs/核心概念/API.md)
-  - [权限](/docs/核心概念/权限.md)
-  - [内容脚本(content Script)](/docs/核心概念/内容脚本.md)
-  - [后台脚本(Service Worker)](/docs/核心概念/后台脚本.md)
-  - [消息传递](/docs/核心概念/消息传递.md)  
+# 运行代码
 
-- [属性说明](/docs/属性说明/README.md)
-  - [权限属性](/docs/属性说明/权限属性.md)
+`npm run docs:dev`
 
+`npm run docs:build`
 
+`npm run docs:serve`
+
+# 访问
+
+访问在线网站：[Chrome扩展开发手册 (https://chrome.lovefc.cn)](https://chrome.lovefc.cn)。
+
+# 文档维护
+
+文档的维护与更新主要包括几个方面：
+
+1. 修正错别字、语句不通等
+
+2. 修正文档中的错误或不清晰的描述
+
+3. 增加案例，纠正案例错误等
+
+请在 GitHub,Gitee 上的源码仓库下 提交 issue

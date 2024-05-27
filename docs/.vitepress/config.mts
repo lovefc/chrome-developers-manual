@@ -8,7 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/README.md' }
+      { text: '文档', link: '/README.md' },
+	  { text: '案例', link: 'https://github.com/lovefc/chrome-developers-manual/tree/main/examples' }
     ],
 	/*
     sidebar: [
