@@ -4,10 +4,9 @@
 
 本手册是基于最新的扩展开发手册整理而来，扩展版本是v3。
 
-官方文档参考地址： [https://developer.chrome.com/docs?hl=zh-cn](https://developer.chrome.com/docs?hl=zh-cn)
+官方文档参考地址: [https://developer.chrome.com/docs?hl=zh-cn](https://developer.chrome.com/docs?hl=zh-cn)
 
 官方文档参考案例: [https://github.com/GoogleChrome/chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples)
-
 
 为什么要写这个手册，因为在谷歌的计划中， **2024 年 6 月**开始为 Chrome 127 及更高版本**停用**[Chrome 稳定版本（开发者版、Canary 版和 Beta 版）中的 Manifest V2 扩展程序。
 
@@ -19,7 +18,7 @@
 
 # 在线访问
 
-访问在线网站：[Chrome扩展开发手册(https://chrome.lovefc.cn)](https://chrome.lovefc.cn)
+访问在线网站:[Chrome扩展开发手册(https://chrome.lovefc.cn)](https://chrome.lovefc.cn)
 
 # 安装npm包
 
@@ -33,8 +32,7 @@
 
 `npm run docs:serve`
 
-
-# 手册维护
+# 文档维护
 
 文档的维护与更新主要包括几个方面：
 
