@@ -14,7 +14,7 @@
   - [background后台脚本调试](案例分析/README.md#background后台脚本调试)
   
 - 核心概念
-  - [基本概念](基本概念/README.md)
+  - [基本概念](核心概念/README.md)
   - [API](核心概念/API.md)
   - [权限](核心概念/权限.md)
   - [内容脚本(content Script)](核心概念/内容脚本.md)
