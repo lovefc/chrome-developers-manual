@@ -14,11 +14,14 @@
 
 如有不足之处，欢迎指出讨论学习。
 
-你可以直接打开docs目录在线观看，或者安装VitePress，生成文档来阅读。
+你可以直接在github上打开docs目录在线观看，或者安装VitePress，生成文档来阅读。
 
 # 在线访问
 
 访问在线网站:[Chrome扩展开发手册(https://chrome.lovefc.cn)](https://chrome.lovefc.cn)
+
+此图为案例里制作的浏览器主题:
+![image.png](./theme.png)
 
 # 安装npm包
 
@@ -30,7 +33,7 @@
 
 `npm run docs:build`
 
-`npm run docs:serve`
+<mark>请注意,因为大小写的原因,在linux下会出现读取md文件失败的问题，我目前是在win下构建的生产环境。</mark>
 
 # 文档维护
 
@@ -43,3 +46,5 @@
 3. 增加案例，纠正案例错误等
 
 请在 GitHub,Gitee 上的源码仓库下 提交 ISSUE
+
+
