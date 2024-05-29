@@ -19,5 +19,6 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024 lovefc'
     }	
-  }
+  },
+  ignoreDeadLinks: true
 })
