@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "chrome扩展开发手册",
   description: "看一遍就懂的chrome扩展开发手册",
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/chrome-logo.svg'}]],
+  head: [['link', { rel: 'shortcut icon',  href: '/favicon.ico'}],['link', { rel: 'icon', type: 'image/svg+xml', href: '/chrome-logo.svg'}]],
   themeConfig: {
     logo: { src: "/chrome-logo.svg", width: 24, height: 24 },
     nav: [
