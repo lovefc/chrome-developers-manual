@@ -1,0 +1,30 @@
+{
+  // 配置文件版本,以后只支持3了
+  "manifest_version": 3,
+  // 扩展名称
+  "name": "地理位置",
+  // 扩展介绍
+  "description": "获取地理位置的扩展",
+  // 扩展版本
+  "version": "1.0",
+  // 扩展行为
+  "action": {
+    // 默认弹出
+    "default_popup": "hello.html",	  
+    // 默认图标
+    "default_icon": "images/icon.png"
+  },
+  // 权限
+  "permissions": ["geolocation"],
+  // 图标
+  "icons": {
+    // 扩展程序页面和上下文菜单上的网站图标。
+    "16": "images/icon.png",
+    // 	Windows 计算机通常需要此大小。
+    "32": "images/icon.png",
+    //	显示在“扩展程序”页面上。
+    "48": "images/icon.png",
+    // 安装时会显示在 Chrome 应用商店中。
+    "128": "images/icon.png"
+  }  
+}
