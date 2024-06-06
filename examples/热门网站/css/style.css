@@ -1,0 +1,27 @@
+*{ margin: 0; padding: 0; }
+body{ font-family: "微软雅黑";width:400px;}
+a{text-decoration: none;}
+ /*清除浮动代码*/
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+.main{ padding: 0;}
+.tabbox{ max-width:600px;min-width:320px; padding-top:15px; margin:auto;}
+.tabbox .tab_top{ height: 40px; overflow: hidden;  background: url(../images/barr.png) repeat-x bottom; }
+.tabbox .tab_top a{ padding: 0 10px; font-size: 16px; margin-right: 40px; margin-left: 10px; color: #999; font-weight: 300; height: 37px; line-height: 37px; float: left; }
+.tabbox .tab_top a.ved{ border-bottom:3px solid #07a3ee; color: #07a3ee; position: relative; }
+.tabbox .tab_bom{ display: block; padding-top: 10px; padding-bottom: 20px;}
+
+.tabbox .tab_bom ul{ margin: 0;}
+.tabbox .tab_bom li{ display: block; list-style: none; margin-top: 10px; position: relative; }
+.tabbox .tab_bom li h3{ font-size: 16px; font-weight: normal; color: #333333; line-height: 20px; padding: 5px 20px; }
+.tabbox .tab_bom li h3 em{ font-style: normal; font-weight: normal; color: #df514e;}
+.tabbox .tab_bom li h3 img{ position: relative; top: 3px; margin-right: 8px;}
+.tabbox .tab_bom li p{ padding-top: 10px; font-size: 14px; line-height: 24px; color: #666666; display: block; }
+.tabbox .tab_bom li span{ display: block; padding-top: 2px; line-height: 20px; font-size: 12px; color: #999999; }
+
+.tabbox .page_box{ padding: 30px 0; display: block; }
+.tabbox .page_box a{ padding: 0 10px; height: 30px; line-height: 30px; font-weight: normal; border: 1px solid #dddddd; font-size: 16px; color: #999999; display: inline-block; margin:0 7px; }
+.tabbox .page_box a:hover{ border: 1px solid #07a3ee; color: #07a3ee; }
+.tabbox .page_box span{padding: 0 10px; margin-right: 10px; display: inline-block; color: #333; font-size: 16px;}
+
+
