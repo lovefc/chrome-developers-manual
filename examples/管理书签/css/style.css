@@ -1,0 +1,56 @@
+*{ margin: 0; padding: 0; }
+body{ font-family: "微软雅黑";width:400px;}
+a{text-decoration: none;}
+ /*清除浮动代码*/
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+.hearer{ height: 80px; background: #fff;}
+.hearer .nbox{ max-width: 1240px; margin: auto; clear:both;}
+.hearer .nbox .logo{ line-height: 80px; font-size: 24px; color: #555555; float: left;}
+.hearer .nbox .logo img{ position: relative; top: 10px; width: 60px; margin-right: 20px; float: left;}
+.hearer .nbox .right-con{ float: right; height: 80px;}
+.hearer .nbox .right-con a{ color: #808080; line-height: 27px; font-size: 16px; padding-top: 30px; display: inline-block;}
+.hearer .nbox .right-con img{ width: 20px; position: relative; top: 4px; margin-right: 5px; margin-left: 20px;}
+/*主页*/
+.hearer-i{ height: 80px; background:url(../images/head.png) repeat-y;}
+.hearer-i .logo{ line-height: 80px; font-size: 26px; color: #fff; margin-left: 20px;}
+.hearer-i .logo img{ position: relative; top: 17px; margin-right: 20px;}
+.hearer-i .right-con{ float: right; background-color: rgba(255, 255, 255, .1); margin-right: 20px; height: 40px; width: 123px; margin-top: 20px; border-radius: 5px; border: 1px solid #adc3fe;}
+.hearer-i .right-con a{ font-size: 16px; color: #fff; line-height: 40px; width: 122px;  float: left;text-align: center;}
+.hearer-i .right-con a.barr{ border-right: 1px solid #adc3fe; display:inline-block;}
+.hearer-i .right-con a img{ position: relative; top: 3px; margin-right: 5px;}
+.hearer-i .right-con:hover{ background-color: rgba(255, 255, 255, .09);}
+
+
+.main{ padding: 0;}
+.main .search_box{ background: #f9f9fa; padding: 18px 0 ; border-bottom: 1px solid #dfe3e5;}
+.main .search_box .s_txt{ width:80%;border:1px solid #d6dbdd; color: #333333; font-size: 16px; line-height: 28px; padding: 5px 10px; }
+.main .search_box .juzhongbox{ max-width:600px;min-width:320px; margin: auto;}
+.main .search_box .s_txt::placeholder{ color: #b2b2b2; font-weight: 300; }
+.main .search_box .ss_con{text-align: center;display: block; position: relative;}
+.main .search_box .s_btn{padding: 10px; top: 0; width: 100px; height: 40px; line-height: 40px; text-align: center; font-size: 16px; color: #FFFFFF; background-color: #07a3ee; }
+
+.main .search_box .ti_con{height: 32px; line-height: 32px; color: #666; display: block; position: relative; padding-top: 10px; }
+.main .search_box .ti_con .inp_txt{ border: none; text-indent: 10px; width: 357px; background-color: #FFFFFF; color: #333333; height: 32px; display: inline-block; line-height: 32px; font-size: 14px; color: #a4a6a7; }
+.main .search_box .ti_con .inp_txt::placeholder{ color: #b2b2b2; font-weight: 300; }
+
+.tabbox{ max-width:600px;min-width:320px; padding-top:15px; margin:auto;}
+.tabbox .tab_top{ height: 40px; overflow: hidden;  background: url(../images/barr.png) repeat-x bottom; }
+.tabbox .tab_top a{ padding: 0 10px; font-size: 16px; margin-right: 40px; margin-left: 10px; color: #999; font-weight: 300; height: 37px; line-height: 37px; float: left; }
+.tabbox .tab_top a.ved{ border-bottom:3px solid #07a3ee; color: #07a3ee; position: relative; }
+.tabbox .tab_bom{ display: block; padding-top: 10px; padding-bottom: 20px;}
+
+.tabbox .tab_bom ul{ margin: 0;}
+.tabbox .tab_bom li{ display: block; list-style: none; margin-top: 10px; position: relative; }
+.tabbox .tab_bom li h3{ font-size: 16px; font-weight: normal; color: #333333; line-height: 20px; padding: 5px 20px; }
+.tabbox .tab_bom li h3 em{ font-style: normal; font-weight: normal; color: #df514e;}
+.tabbox .tab_bom li h3 img{ position: relative; top: 3px; margin-right: 8px;}
+.tabbox .tab_bom li p{ padding-top: 10px; font-size: 14px; line-height: 24px; color: #666666; display: block; }
+.tabbox .tab_bom li span{ display: block; padding-top: 2px; line-height: 20px; font-size: 12px; color: #999999; }
+
+.tabbox .page_box{ padding: 30px 0; display: block; }
+.tabbox .page_box a{ padding: 0 10px; height: 30px; line-height: 30px; font-weight: normal; border: 1px solid #dddddd; font-size: 16px; color: #999999; display: inline-block; margin:0 7px; }
+.tabbox .page_box a:hover{ border: 1px solid #07a3ee; color: #07a3ee; }
+.tabbox .page_box span{padding: 0 10px; margin-right: 10px; display: inline-block; color: #333; font-size: 16px;}
+
+
